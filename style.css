@@ -8,6 +8,13 @@
   -webkit-user-drag: none;
 }
 
+#name,
+#money {
+  padding: 8px 2px;
+  margin: 5px;
+
+}
+
 body {
   width: 100vw;
   display: grid;
@@ -15,13 +22,10 @@ body {
 }
 
 
-#save {
-  margin: 20px;
-  font-size: 15px;
-  padding: 0.5rem;
-}
+
+#save,
 #withdrew {
-  margin: 20px;
+  margin: 35px;
   font-size: 15px;
   padding: 0.5rem;
 }
@@ -59,10 +63,4 @@ td {
   font-size: 32px;
   margin: 10px;
   
-}
-
-
-#myinput {
-  padding: 10px;
-
 }
