@@ -3,21 +3,26 @@ function isNumber(num) {
   return +num === num
 }
 
-// function mySort(list) {
-//   const flatList = list.flat(Infinity)
+function add(a, b) {
+  return a + b
+}
 
-//   const filterList = flatList.filter(element => isNumber(element))
+function mySort(list) {
+  const flatList = list.flat(Infinity)
 
-//   const setList = [...new Set(filterList)]
+  const filterList = flatList.filter(element => isNumber(element))
 
-//   return setList.sort((a, b) => a - b)
-// }
+  // const setList = [...new Set(filterList)]
+
+  // return setList.sort((a, b) => a - b)
+  return filterList
+}
 
 // function add(a, b) {
 //   return a + b
 // }
 
 
-export { isNumber }
+export { isNumber, add, mySort}
 
 

@@ -16,17 +16,21 @@
 
   <br>
   <br>
-  <div>
-    name <input id = "name" type="text"> 
-    Money <input id = "money" type="text">    
+
+  <div class="nm">
+    <p>name</p>
+    <input id = "inputN" type="text"> 
   </div>
-  
+  <div>
+    <p>Money</p>  
+    <input id = "inputM" type="text">    
+  </div>
 
   <br>
 
-  <div>
-    <span id="save">save</span>
-    <span id="withdrew">withdrew</span>
+  <div class="sw">
+    <span id="btnS">save</span>
+    <span id="btnW">withdraw</span>
   </div>
 
   <br>
@@ -35,8 +39,8 @@
   <table>
     <thead>
       <th>#</th>
-      <td>Amount</td>
-      <td>AccountBalance</td>
+      <td id="td">Amount</td>
+      <td id =td2>AccountBalance</td>
       
     </thead>
     <tbody>
@@ -44,8 +48,7 @@
     </tbody>
   </table>
 
-  <script type="module" src="/main.js">
-  </script>
+  <script type="module" src="/main.js"></script>
 </body>
 
 </html>
